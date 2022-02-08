@@ -4,7 +4,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: purple;
   overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: grey;
   color: white;
 }
 
