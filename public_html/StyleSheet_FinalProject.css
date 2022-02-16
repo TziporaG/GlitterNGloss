@@ -26,11 +26,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 /* Add a color to the active/current link */
 .topnav a.active {
-<<<<<<< HEAD
-  background-color: black;
-=======
+background-color: black;
   background-color: grey;
->>>>>>> a4eec29086158c23ef1ea9aca0797a965b9efe27
   color: white;
 }
 div.logo{

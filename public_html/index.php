@@ -11,7 +11,7 @@
 
 <?php include "header.php"; ?>
 
-Welcome to Flitter 'n gloss!
+Welcome to Glitter 'n gloss!
 
 <?php include "footer.php"; ?>
 
