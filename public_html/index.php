@@ -7,11 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="StyleSheet_FinalProject.css" rel="stylesheet" >
 </head>
-<body>
+<body class = "body">
 
 <?php include "header.php"; ?>
 
-Welcome to Glitter 'n gloss!
+    <h1>Welcome to Glitter 'n gloss!</h1>
+<div class="logo">
+<img src="makeUp.jpg" width="1000"; height="500";>
+</div>
 
 <?php include "footer.php"; ?>
 

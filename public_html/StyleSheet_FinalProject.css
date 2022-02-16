@@ -1,16 +1,21 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* Add a black background color to the top navigation */
+
+
+.body {
+    font-family: script;
+    background-color: white;
+    text-align:center;
+    margin: auto;
+}
+/* Add a background color to the top navigation */
 .topnav {
-  background-color: purple;
+  background-color: white;
   overflow: hidden;
+  margin: auto;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -19,15 +24,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #8540b3;
+  color: white;
 }
 
 
 /* Add a color to the active/current link */
 .topnav a.active {
 background-color: black;
-  background-color: grey;
+  background-color: #8540b3;
   color: white;
 }
 div.logo{
