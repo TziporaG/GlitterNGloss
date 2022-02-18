@@ -1,4 +1,4 @@
-	<div class="topnav">
+<div class="topnav">
   <a class="active" href="index.php">Home</a>
   <a href="face.php">Face</a>
   <a href="eye.php">Eye</a>
