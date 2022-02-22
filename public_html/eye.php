@@ -1,5 +1,5 @@
 
 <?php include "header.php";
 ?>
-<p>This will have eye products</p>
+<p>eye products</p>
 <?php include "footer.php"; ?>
