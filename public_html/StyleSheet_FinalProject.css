@@ -15,6 +15,7 @@ h1 {
   background-color: white;
   overflow: hidden;
   margin: auto;
+   font-size: 15px;
  
 }
 /* Style the links inside the navigation bar */
@@ -43,4 +44,10 @@ div.logo{
 	text-align:center;
 }
 
+.form {
+    
+     font-size: 15px;
+     vertical-align: middle;
+     
+}
 

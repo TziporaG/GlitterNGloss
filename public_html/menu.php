@@ -9,5 +9,5 @@
  <a href="locations.php">Locations</a>  
    <a href="consultations.php">Consultations</a>
     <a href="reviews.php">Reviews</a>
-    <a href="cart.php">Cart</a>
+    <a href="loginToCart.php">Cart</a>
 </div>
