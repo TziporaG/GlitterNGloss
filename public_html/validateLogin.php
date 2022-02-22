@@ -18,7 +18,7 @@ $valid_logins = array(
       "DavidLovesPurple"=>"htmlIsAwesome",
       "CodeMaster"=>"greenbeans",
       "SusanThomas"=>"su789thom",
-      "username"=>"pasword",
+      "username"=>"password",
       "lightbulb"=>"56RiverRoad",
       "website"=>"php",
 );
