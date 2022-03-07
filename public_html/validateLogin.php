@@ -3,6 +3,17 @@
 session_start();
 include "header.php";
 
+$serverName = "localhost";
+$dbUserName = "root";
+$dbPassword = "";
+$dbName = "GLITTER_N_GLOSS";
+
+$conn = mysqli_connect($serverName, $dbUserName, $dbPassword, $dbName);
+
+if (!$conn){
+    die("Connection failed: ".mysqli_connect_error());
+}
+
     if(!isset($_POST['userName']) || !isset($_POST['password'])) {
 
         header("Location: loginToCart.php");
@@ -13,21 +24,11 @@ $password = $_POST['password'];
 
 $login = false;
 
-$valid_logins = array(
-      "jackZhe90"=>"Jan212022!",
-      "DavidLovesPurple"=>"htmlIsAwesome",
-      "CodeMaster"=>"greenbeans",
-      "SusanThomas"=>"su789thom",
-      "username"=>"password",
-      "lightbulb"=>"56RiverRoad",
-      "website"=>"php",
-);
+$result = mysqli_query($conn, "SELECT UserName FROM AuthorizedUsers WHERE UserName='".$userName.
+        "' && Password='".$password."'");
 
-// Go through every $key => $value pair
-foreach ($valid_logins as $validUserName => $validPassword) {
-
-    $login = ($validUserName === $userName && $validPassword === $password) ? true : false;
-    if($login) break;
+if (mysqli_num_rows($result) == 1){
+    $login = true;
 }
 
 if($login) {
