@@ -28,6 +28,7 @@ $rowCount=mysqli_num_rows($result);
 if($rowCount>0){
 	while($row=mysqli_fetch_assoc($result)){
 		echo $row['description']."<br>";//echo more then description
+		echo $row['color']."<br>";
 	}	
 }
 else{
