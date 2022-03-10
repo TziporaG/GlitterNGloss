@@ -11,4 +11,5 @@
     <a href="reviews.php">Reviews</a>
     <a href="loginToCart.php">Cart</a>
 	<a href="register.php">Register</a>
+	<a href="products.php">Products</a>
 </div>
