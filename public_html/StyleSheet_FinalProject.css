@@ -1,11 +1,12 @@
 
-
-.body {
-     font-family: Arial;
+body {
+    font-family: Arial;
     background-color: white;
     text-align:center;
     margin: auto;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 20px;
+  
 }
 
 h1 {
@@ -44,10 +45,64 @@ div.logo{
 	text-align:center;
 }
 
-.form {
-    
-     font-size: 15px;
+form {
+
      vertical-align: middle;
-     
+      text-align: center;
+      color: #8540b3;
+      border: #8540b3 3px solid;
+      margin-left: 250px;
+      margin-right: 250px;
+      margin-top: 75px;
+       padding-bottom: 50px;
 }
 
+table {
+    
+    border-spacing: 20px;
+     color: #8540b3;
+     font-family: Arial;
+    background-color: white;
+    text-align:left;
+    margin: auto;
+    font-size: 20px;
+    
+}
+footer {
+    
+    text-align: left;
+    font-size: 10px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  

@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
 		exit();
 	}
 	else{
-		$sql="SELECT userName from authorizedusers where userName=?";
+		$sql="SELECT userName from validusers where userName=?";
 		//$sql="insert into authorizedUsers(UserName,Password,RoleID) values($username,$password,null)"
 		$stmt=mysqli_stmt_init($mysqli);
 		if (!mysqli_stmt_prepare($stmt,$sql)){
@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
 				exit();
 			}
 			else{
-				$sql="INSERT INTO authorizedusers (userName,Password, RoleID) values (?,?,?)";
+				$sql="INSERT INTO validusers (userName,Password, RoleID) values (?,?,?)";
 				$stmt=mysqli_stmt_init($mysqli);
 				if (!mysqli_stmt_prepare($stmt,$sql)){
 			header("Location: register.php?error=sqlerror");
