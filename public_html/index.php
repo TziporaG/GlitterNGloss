@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 <script>
   $(function() {
-    $(".rslides").responsiveSlides({maxwidth: "1000px"
+    $(".rslides").responsiveSlides({maxwidth: "1000px", timeout: 3000
         });
   });
 </script>

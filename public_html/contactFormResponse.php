@@ -22,7 +22,9 @@ $mail->Port = 465;
 $mail->Username = 'glitterngloss6@gmail.com';
 $mail->Password = 'PHPTermProject2022';
 $mail->setFrom('glitterngloss6@gmail.com');
-$mail->Subject = 'Customer Form Sumbission';
+$mail->addAddress('glitterngloss6@gmail.com');
+$mail->addReplyTo('glitterngloss6@gmail.com', 'Glitter and Gloss');
+$mail->Subject = 'Customer Form Submission';
 $mail->Body = 
         "Customer Name: " . $_POST["fname"] . " " . $_POST["lname"] . "\n" .
         "Customer question/comment: " . $_POST["comments"]. "\n"   .
@@ -34,7 +36,7 @@ $mail->Body =
 if (!$mail->send()) {
     echo "ERROR: " . $mail->ErrorInfo;
 } else {
-    echo "<br><br><br><br><br><br>Thank you for contacting us. Please look out for our promt reply.";
+    echo "<br><br><br><br><br><br><h1>Thank you for contacting us. </h1>Please look out for our promt reply.";
     echo "<br><a href='index.php'>Back to home</a><br><br><br><br><br>";
 }
 
