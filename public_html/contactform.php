@@ -25,7 +25,7 @@
             </table>
   
             <label for="comments">Questions or comments: </label><br><br> 
-            <textarea name="comments" rows="10" cols="70"required> </textarea><br><br>
+            <textarea name="comments" id="comments" rows="10" cols="70"required></textarea><br/>
             
             <input type="checkbox" id="notifications" name="notifictions" checked>
             <label for="notifications">I would like to receive notifications</label><br>
