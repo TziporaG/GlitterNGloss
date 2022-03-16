@@ -1,14 +1,14 @@
 
 <?php
 include "header.php";
-echo '<h5>Enter a user name and password:</h5>';
-   
 ?>
 
 
  <form method="POST" action="validateLogin.php" class = "form">
+     <h1>Enter a user name and password:</h1><br>
         <label for="userName">User name:</label>
-        <input type="text" id="fname" name="userName" placeholder = "john_doe123"><br><br>
+        <input type="text" id="fname" name="userName" placeholder = "john_doe123"><br>
+         <a style = "font-size:12px" href="UsernamesInUse.php">Forgot username? Click to see a list of valid usernames</a><br><br>
         <label for="password">Password:</label>
         <input type="password" id="lname" name="password"><br><br>
           
