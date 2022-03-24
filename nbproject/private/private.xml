@@ -3,12 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/FinalProject/public_html/footer.php</file>
-            <file>file:/C:/xampp/htdocs/FinalProject/public_html/index.php</file>
-            <file>file:/C:/xampp/htdocs/FinalProject/public_html/contactform.php</file>
-            <file>file:/C:/xampp/htdocs/FinalProject/public_html/header.php</file>
-            <file>file:/C:/xampp/htdocs/FinalProject/public_html/contactFormResponse.php</file>
-            <file>file:/C:/xampp/htdocs/FinalProject/public_html/StyleSheet_FinalProject.css</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/menu.php</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/loginToCart.php</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/contactform.php</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/header.php</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/StyleSheet_FinalProject.css</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/footer.php</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/validateLogin.php</file>
+            <file>file:/C:/xampp/htdocs/MCON358/GlitterNGloss/public_html/cart.php</file>
         </group>
     </open-files>
 </project-private>
