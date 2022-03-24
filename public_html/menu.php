@@ -13,5 +13,6 @@
         <li><a href="contactform.php">Contact</a></li>
         <li><a href="loginToCart.php">Cart</a></li>
         <li><a href="register.php">Register</a></li>
+        <li><a href="reviews.php">Reviews</a></li>
     </ul>
 </div>
