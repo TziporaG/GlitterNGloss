@@ -116,3 +116,21 @@ table {
   height: 2.5rem;
   
  }
+
+ .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.grid-item {
+  border: 1px solid #8540b3;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #8540b3;
+   font-family: Arial;
+}

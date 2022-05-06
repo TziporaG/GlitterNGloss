@@ -106,6 +106,11 @@ INSERT INTO `products` (`productid`, `description`, `price`, `category`, `color`
 (13, 'Mascara', 9, 'eye', 'black'),
 (14, 'Mascara', 9, 'eye', 'blue'),
 (15, 'Mascara', 9, 'eye', 'silver');
+(16, 'Powder Brush', 5, 'brush', 'gold');
+(17, 'Face Brush', 5, 'brush', 'black');
+(18, 'Contour Brush', 5, 'brush', 'gold');
+(19, 'Beauty Blender', 5, 'brush', 'pink');
+(20, 'Foundation Brush', 5, 'brush', 'black');
 
 -- --------------------------------------------------------
 

@@ -24,22 +24,26 @@ $password = $_POST['password'];
 
 $login = false;
 
-$result = mysqli_query($conn, "SELECT UserName FROM AuthorizedUsers WHERE UserName='".$userName.
+$result = mysqli_query($conn, "SELECT UserName FROM validUsers WHERE UserName='".$userName.
         "' && Password='".$password."'");
-
-if (mysqli_num_rows($result) == 1){
+if($result == False) {
+    $login = false;
+    echo '<a href="loginTOCart.php">Error, please try again</a>';
+}
+else if (mysqli_num_rows($result) == 1){
     $login = true;
 }
 
 if($login) {
     setcookie('userName', $userName);
+    echo '<a href="cart.php">Go to cart</a>';
     $_SESSION['LogIn'] = True;
 }
 else {
     $_SESSION['LogIn'] = False;
 }
 
-echo '<a href="cart.php">Go to cart</a>';
+
 
 include "footer.php";
 ?> 
