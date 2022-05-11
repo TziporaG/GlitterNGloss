@@ -25,7 +25,7 @@ if($rowCount>0){
        while($row=mysqli_fetch_assoc($result)) {
                    echo "<div class='grid-item'>";
                    echo "<div>" . $row['description'] . "</div>";
-                   echo "<img src= " . $picsArray[$index] . " style='width: 300px; height: 200px;' />";
+                   echo "<img src= ../images/" . $picsArray[$index] . " style='width: 300px; height: 200px;' />";
                    echo "<div> Price: $".$row['price']." .00</div>";
                    echo "<div> Color: ".$row['color']."</div>";
                    echo "</div>";

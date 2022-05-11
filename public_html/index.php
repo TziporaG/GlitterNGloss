@@ -10,13 +10,13 @@
 
 
 <ul class="rslides">
-  <li><img src="slideshow_pic(1).jpg" alt="Glitter n Gloss Picture"></li>
-  <li><img src="slideshow_pic(2).jpg" alt="Glitter n Gloss Picture"></li>
-  <li><img src="slideshow_pic(3).jpg" alt="Glitter n Gloss Picture"></li>
-  <li><img src="slideshow_pic(4).jpg" alt="Glitter n Gloss Picture"></li>
-  <li><img src="slideshow_pic(5).jpg" alt="Glitter n Gloss Picture"></li>
-  <li><img src="slideshow_pic(6).jpg" alt="Glitter n Gloss Picture"></li>
-  <li><img src="slideshow_pic(7).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(1).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(2).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(3).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(4).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(5).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(6).jpg" alt="Glitter n Gloss Picture"></li>
+  <li><img src="../images/slideshow_pic(7).jpg" alt="Glitter n Gloss Picture"></li>
 </ul>
 
 <br><br>
